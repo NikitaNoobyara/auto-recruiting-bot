@@ -9,7 +9,7 @@ from flask import Flask, request
 
 from handlers import start, test_delivery, payment, settings
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7468870837:AAEw7sbUSJH0otExiqolp6cee598y7MDxcY")
 WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET")
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
